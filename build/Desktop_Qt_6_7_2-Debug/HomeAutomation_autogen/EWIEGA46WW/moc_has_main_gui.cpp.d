@@ -61,7 +61,6 @@
   /home/hosbital/Qt/6.7.2/gcc_64/include/QtCore/qmargins.h \
   /home/hosbital/Qt/6.7.2/gcc_64/include/QtCore/qmath.h \
   /home/hosbital/Qt/6.7.2/gcc_64/include/QtCore/qmetacontainer.h \
-  /home/hosbital/Qt/6.7.2/gcc_64/include/QtCore/qmetaobject.h \
   /home/hosbital/Qt/6.7.2/gcc_64/include/QtCore/qmetatype.h \
   /home/hosbital/Qt/6.7.2/gcc_64/include/QtCore/qminmax.h \
   /home/hosbital/Qt/6.7.2/gcc_64/include/QtCore/qmutex.h \
@@ -156,22 +155,6 @@
   /home/hosbital/Qt/6.7.2/gcc_64/include/QtGui/qtransform.h \
   /home/hosbital/Qt/6.7.2/gcc_64/include/QtGui/qvalidator.h \
   /home/hosbital/Qt/6.7.2/gcc_64/include/QtGui/qwindowdefs.h \
-  /home/hosbital/Qt/6.7.2/gcc_64/include/QtMultimedia/QCamera \
-  /home/hosbital/Qt/6.7.2/gcc_64/include/QtMultimedia/QMediaCaptureSession \
-  /home/hosbital/Qt/6.7.2/gcc_64/include/QtMultimedia/qcamera.h \
-  /home/hosbital/Qt/6.7.2/gcc_64/include/QtMultimedia/qcameradevice.h \
-  /home/hosbital/Qt/6.7.2/gcc_64/include/QtMultimedia/qmediacapturesession.h \
-  /home/hosbital/Qt/6.7.2/gcc_64/include/QtMultimedia/qmediaenumdebug.h \
-  /home/hosbital/Qt/6.7.2/gcc_64/include/QtMultimedia/qtmultimedia-config.h \
-  /home/hosbital/Qt/6.7.2/gcc_64/include/QtMultimedia/qtmultimediaexports.h \
-  /home/hosbital/Qt/6.7.2/gcc_64/include/QtMultimedia/qtmultimediaglobal.h \
-  /home/hosbital/Qt/6.7.2/gcc_64/include/QtMultimedia/qtvideo.h \
-  /home/hosbital/Qt/6.7.2/gcc_64/include/QtMultimedia/qvideoframe.h \
-  /home/hosbital/Qt/6.7.2/gcc_64/include/QtMultimedia/qvideoframeformat.h \
-  /home/hosbital/Qt/6.7.2/gcc_64/include/QtMultimediaWidgets/QVideoWidget \
-  /home/hosbital/Qt/6.7.2/gcc_64/include/QtMultimediaWidgets/qtmultimediawidgetsexports.h \
-  /home/hosbital/Qt/6.7.2/gcc_64/include/QtMultimediaWidgets/qtmultimediawidgetsglobal.h \
-  /home/hosbital/Qt/6.7.2/gcc_64/include/QtMultimediaWidgets/qvideowidget.h \
   /home/hosbital/Qt/6.7.2/gcc_64/include/QtWidgets/QComboBox \
   /home/hosbital/Qt/6.7.2/gcc_64/include/QtWidgets/QMainWindow \
   /home/hosbital/Qt/6.7.2/gcc_64/include/QtWidgets/QWidget \

@@ -5,32 +5,32 @@
  * @brief Use namsapace for camera functions!
  * @attention consider namespace instead of creating a class due to the simplicity!
  */
-#include    <iostream>
-#include <string>
 
-#include <qobject.h>
+#include <opencv2/opencv.hpp>
+#include <opencv2/objdetect.hpp>
+#include <opencv2/imgproc.hpp>
+
+#include <QObject>
+#include "imagewidget.h" // Include the header for ImageWidget
 
 class Camera : public QObject
 {
     Q_OBJECT
 
+public:
  explicit Camera();
     ~Camera();
 
-bool camera_setup();
-bool camera_frame_read();
+ bool start_camera(int index, bool& face_detection, ImageWidget *imageWidget );
+ void processFrames() ;
+ QImage MatToQImage(const cv::Mat &mat) ;
 
-bool camera_frame_show();
-bool camera_frame_save();
-
-void listen_command(std::string& listen_char );
-
-bool camera_start(const std::string& camera_name, int camera_ID);
-
-//This function creat a name for saving video based on the system time and date
-std::string create_filename(const std::string& cam_name);
+ protected:
 
 
+
+ private:
+     cv::VideoCapture videoCapture;
 
 };
 
