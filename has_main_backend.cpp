@@ -49,14 +49,6 @@ void HAS_Main_Backend::start_point()
     // call actuator adjuster  (Polymorphysm)
     Actuator* actuator = new Heater_Controller("Heater", 2, 100, true, 2, sensor2);
 
-    qDebug() << "Sensor Name from main second: " << sensor;
-
-    // if (!Camera::camera_setup()){
-
-    //     qDebug() <<" There is a problem with Camera driving!" ;
-    // }
-
-
 
 }
 

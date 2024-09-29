@@ -27,9 +27,9 @@ find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets Multimedia Multim
 
 set(PROJECT_SOURCES
         main.cpp
-        has_main_gui.cpp
-        has_main_gui.h
-        has_main_gui.ui
+        HAS_main_GUI.cpp
+        HAS_main_GUI.h
+        HAS_main_GUI.ui
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)

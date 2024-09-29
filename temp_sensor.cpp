@@ -42,7 +42,7 @@ void Temp_Sensor::start_data_reading(){
 
 std::vector<double> Temp_Sensor::providing_data() {
 
-    qDebug() << "Hello from Providing Data! :))))))))))))))))))" ;
+ //   qDebug() << "Hello from Providing Data! :)" ;
 
     return raw_temp_data;
 }

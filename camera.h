@@ -12,25 +12,54 @@
 
 #include <QObject>
 #include "imagewidget.h" // Include the header for ImageWidget
+#include <queue>
+
+#include <condition_variable>
+#include <mutex>
 
 class Camera : public QObject
 {
     Q_OBJECT
 
 public:
- explicit Camera();
+ explicit Camera(int index, bool& face_detection, bool& camera_record, ImageWidget *imageWidget);
+    Camera(int index);
     ~Camera();
 
- bool start_camera(int index, bool& face_detection, ImageWidget *imageWidget );
- void processFrames() ;
+ void processFrames(/*ImageWidget *imageWidget*/) ;
  QImage MatToQImage(const cv::Mat &mat) ;
+ std::string generateFileName(int index);
+ void stop();
+
+ public slots:
+ //capture
+     bool start_camera();
+
+ //record
+
+
 
  protected:
 
 
 
  private:
+     // Define a static variable for the dummy reference
+     bool dummy_reference = false; // This can be any static boolean variable
+
      cv::VideoCapture videoCapture;
+     cv::CascadeClassifier face_cascade; // Haar cascade for face detection
+
+     ImageWidget *imageWidget;
+     int index;
+     bool& face_detection ;
+     bool& camera_record ;
+     bool stop_camera ;
+     //recorder
+     std::queue<cv::Mat> camera_frame_queue;
+     std::condition_variable condVar;
+     std::mutex queue_mutex;
+
 
 };
 

@@ -1,4 +1,4 @@
-#include "has_main_gui.h"
+#include "HAS_main_GUI.h"
 #include "has_main_backend.h"
 #include <QThread>
 #include <QApplication>

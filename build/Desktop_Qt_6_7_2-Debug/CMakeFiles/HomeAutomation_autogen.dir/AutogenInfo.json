@@ -432,6 +432,12 @@
 	"HEADERS" : 
 	[
 		[
+			"/home/hosbital/project/comeback/Qt_Home_Automation_System/HAS_Qt02/HomeAutomation/HAS_main_GUI.h",
+			"MU",
+			"EWIEGA46WW/moc_HAS_main_GUI.cpp",
+			null
+		],
+		[
 			"/home/hosbital/project/comeback/Qt_Home_Automation_System/HAS_Qt02/HomeAutomation/actuator.h",
 			"MU",
 			"EWIEGA46WW/moc_actuator.cpp",
@@ -453,12 +459,6 @@
 			"/home/hosbital/project/comeback/Qt_Home_Automation_System/HAS_Qt02/HomeAutomation/has_main_backend.h",
 			"MU",
 			"EWIEGA46WW/moc_has_main_backend.cpp",
-			null
-		],
-		[
-			"/home/hosbital/project/comeback/Qt_Home_Automation_System/HAS_Qt02/HomeAutomation/has_main_gui.h",
-			"MU",
-			"EWIEGA46WW/moc_has_main_gui.cpp",
 			null
 		],
 		[
@@ -564,6 +564,11 @@
 	"SOURCES" : 
 	[
 		[
+			"/home/hosbital/project/comeback/Qt_Home_Automation_System/HAS_Qt02/HomeAutomation/HAS_main_GUI.cpp",
+			"MU",
+			null
+		],
+		[
 			"/home/hosbital/project/comeback/Qt_Home_Automation_System/HAS_Qt02/HomeAutomation/actuator.cpp",
 			"MU",
 			null
@@ -580,11 +585,6 @@
 		],
 		[
 			"/home/hosbital/project/comeback/Qt_Home_Automation_System/HAS_Qt02/HomeAutomation/has_main_backend.cpp",
-			"MU",
-			null
-		],
-		[
-			"/home/hosbital/project/comeback/Qt_Home_Automation_System/HAS_Qt02/HomeAutomation/has_main_gui.cpp",
 			"MU",
 			null
 		],

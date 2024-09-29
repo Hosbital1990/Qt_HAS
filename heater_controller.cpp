@@ -51,10 +51,10 @@ Heater_Controller::~Heater_Controller()
 
         while(true) {
             if (sensor) {
-                qDebug() << "Attempting to provide sensor data..."
-                         << "Sensor Name: " << sensor
-                         << "   Operation: "<< sensor->operation_state
-                << "   Operation: "<< sensor->providing_data();
+                // qDebug() << "Attempting to provide sensor data..."
+                //          << "Sensor Name: " << sensor
+                //          << "   Operation: "<< sensor->operation_state
+                // << "   Operation: "<< sensor->providing_data();
 
             } else {
                 qDebug() << "Sensor pointer is null!";

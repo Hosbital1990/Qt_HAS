@@ -1,5 +1,6 @@
 HomeAutomation_autogen/timestamp: \
 	/home/hosbital/Qt/6.7.2/gcc_64/include/QtCore/QMutex \
+	/home/hosbital/Qt/6.7.2/gcc_64/include/QtCore/QObject \
 	/home/hosbital/Qt/6.7.2/gcc_64/include/QtCore/QThread \
 	/home/hosbital/Qt/6.7.2/gcc_64/include/QtCore/q20functional.h \
 	/home/hosbital/Qt/6.7.2/gcc_64/include/QtCore/q20memory.h \
@@ -477,6 +478,8 @@ HomeAutomation_autogen/timestamp: \
 	/home/hosbital/Qt/Tools/CMake/share/cmake-3.29/Modules/Platform/Linux.cmake \
 	/home/hosbital/Qt/Tools/CMake/share/cmake-3.29/Modules/Platform/UnixPaths.cmake \
 	/home/hosbital/project/comeback/Qt_Home_Automation_System/HAS_Qt02/HomeAutomation/CMakeLists.txt \
+	/home/hosbital/project/comeback/Qt_Home_Automation_System/HAS_Qt02/HomeAutomation/HAS_main_GUI.cpp \
+	/home/hosbital/project/comeback/Qt_Home_Automation_System/HAS_Qt02/HomeAutomation/HAS_main_GUI.h \
 	/home/hosbital/project/comeback/Qt_Home_Automation_System/HAS_Qt02/HomeAutomation/actuator.cpp \
 	/home/hosbital/project/comeback/Qt_Home_Automation_System/HAS_Qt02/HomeAutomation/actuator.h \
 	/home/hosbital/project/comeback/Qt_Home_Automation_System/HAS_Qt02/HomeAutomation/build/Desktop_Qt_6_7_2-Debug/.qtc/package-manager/auto-setup.cmake \
@@ -489,8 +492,6 @@ HomeAutomation_autogen/timestamp: \
 	/home/hosbital/project/comeback/Qt_Home_Automation_System/HAS_Qt02/HomeAutomation/do_some_thing.h \
 	/home/hosbital/project/comeback/Qt_Home_Automation_System/HAS_Qt02/HomeAutomation/has_main_backend.cpp \
 	/home/hosbital/project/comeback/Qt_Home_Automation_System/HAS_Qt02/HomeAutomation/has_main_backend.h \
-	/home/hosbital/project/comeback/Qt_Home_Automation_System/HAS_Qt02/HomeAutomation/has_main_gui.cpp \
-	/home/hosbital/project/comeback/Qt_Home_Automation_System/HAS_Qt02/HomeAutomation/has_main_gui.h \
 	/home/hosbital/project/comeback/Qt_Home_Automation_System/HAS_Qt02/HomeAutomation/heater_controller.cpp \
 	/home/hosbital/project/comeback/Qt_Home_Automation_System/HAS_Qt02/HomeAutomation/heater_controller.h \
 	/home/hosbital/project/comeback/Qt_Home_Automation_System/HAS_Qt02/HomeAutomation/imagewidget.h \
@@ -958,5 +959,5 @@ HomeAutomation_autogen/timestamp: \
 	/usr/lib/x86_64-linux-gnu/cmake/opencv4/OpenCVConfig.cmake \
 	/usr/lib/x86_64-linux-gnu/cmake/opencv4/OpenCVModules-release.cmake \
 	/usr/lib/x86_64-linux-gnu/cmake/opencv4/OpenCVModules.cmake \
-	/home/hosbital/project/comeback/Qt_Home_Automation_System/HAS_Qt02/HomeAutomation/has_main_gui.ui \
+	/home/hosbital/project/comeback/Qt_Home_Automation_System/HAS_Qt02/HomeAutomation/HAS_main_GUI.ui \
 	/home/hosbital/Qt/Tools/CMake/bin/cmake
